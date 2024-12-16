@@ -1,0 +1,112 @@
+.todoList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.inputForm {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  max-width: 46rem;
+  margin-top: -1.8rem;
+  gap: 0.5rem;
+}
+
+.inputForm > input:placeholder {
+  color: var(--gray-300);
+}
+
+.inputForm > input {
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+}
+
+.inputForm > input:focus {
+  box-shadow: 0 0 0 2px var(--dark-purple);
+}
+
+.createButton {
+  background: var(--dark-blue);
+  border-radius: 8px;
+  border: none;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 0.875rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-100);
+  gap: 0.5rem;
+
+  transistion: background 0.2s;
+}
+
+.createButton:hover {
+  background: var(--blue);
+}
+
+.listBox {
+  margin-top: 4rem;
+  width: 100%;
+  max-width: 46rem;
+}
+
+.listInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infoText {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.infoText > span {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  padding: 0.125rem 0.575rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+}
+
+.infoTextCreated {
+  color: var(--blue);
+}
+
+.infoTextCompleted {
+  color: var(--purple);
+}
+
+.emptyList {
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  margin-top: 1.5rem;
+  padding: 4rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emptyList > img {
+  margin-bottom: 1rem;
+}
+
+.emptyList p {
+  font-weight: bold;
+}
+
+.tasksList {
+  margin-top: 1.5rem;
+}

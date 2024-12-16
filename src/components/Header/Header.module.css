@@ -1,0 +1,12 @@
+.headerBox {
+  background: var(--gray-700);
+  height: 12.75rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoTodo {
+  padding-bottom: 2rem;
+}

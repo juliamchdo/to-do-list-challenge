@@ -1,0 +1,70 @@
+:root {
+  --dark-blue: #1e6f9f;
+  --blue: #4ea8de;
+
+  --dark-purple: #5e60ce;
+  --purple: #8284fa;
+
+  --danger: #e25858;
+  --success: #81c784;
+
+  --gray-700: #0d0d0d;
+  --gray-600: #1a1a1a;
+  --gray-500: #262626;
+  --gray-400: #333333;
+  --gray-300: #808080;
+
+  --gray-200: #d9d9d9;
+  --gray-100: #f2f2f2;
+
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 0.75rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+
+  --transition-duration: 0.25s;
+  --transition-timing: cubic-bezier(0.4, 0, 0.2, 1);
+  --ripple-duration: 0.7s;
+
+  --control-size: 24px;
+  --control-border: 2px;
+  --focus-ring-size: 4px;
+  --ripple-size: 44px;
+  --checkmark-width: 6px;
+  --checkmark-height: 12px;
+  --radio-dot-size: 12px;
+
+  --primary-color: #646cff;
+  --hover-color: #535bf2;
+  --background-color: #070707;
+  --text-color-white: white;
+  --text-color-rest: rgba(255, 255, 255, 0.7);
+  --text-color-hover: rgba(255, 255, 255, 0.8);
+  --text-color-active: rgba(255, 255, 255, 1);
+  --ripple-color: rgba(100, 108, 255, 0.3);
+}
+
+:focus {
+  outline: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--gray-600);
+  color: var(--gray-100);
+  --webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Inter", sans-serif;
+  line-height: 1.4rem;
+  font-weight: 400;
+}
